@@ -1,0 +1,159 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Tejas Solar Solutions provides residential and commercial solar panel installation and clean energy solutions.">
+  <title>Tejas Solar Solutions | Power Your Future</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header class="header">
+    <a href="#home" class="logo">
+      <span class="sun">☀</span> Tejas Solar Solutions
+    </a>
+
+    <button class="menu-toggle" id="menuToggle"
+            aria-label="Toggle navigation" aria-expanded="false">
+      ☰
+    </button>
+
+    <nav id="navigation">
+      <a href="#home">Home</a>
+      <a href="#about">About Us</a>
+      <a href="#services">Services</a>
+      <a href="#benefits">Benefits</a>
+      <a href="#contact" class="nav-button">Contact Us</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-content">
+        <span class="eyebrow">CLEAN ENERGY. BRIGHTER FUTURE.</span>
+        <h1>Power Your Life with <span>Solar Energy</span></h1>
+        <p>
+          Switch to clean, renewable energy with Tejas Solar Solutions.
+          Discover smarter solar solutions for your home and business.
+        </p>
+        <div class="hero-actions">
+          <a href="#contact" class="button primary">Get a Free Quote</a>
+          <a href="#services" class="button secondary">Explore Services</a>
+        </div>
+        <div class="hero-note">
+          ☀ Clean Energy &nbsp; ✓ Reliable Solutions &nbsp; ♻ Greener Tomorrow
+        </div>
+      </div>
+    </section>
+
+    <section class="intro section" id="about">
+      <span class="eyebrow">ABOUT US</span>
+      <h2>A Brighter Future Starts with Solar</h2>
+      <p class="section-description">
+        Tejas Solar Solutions is dedicated to helping homes and businesses
+        explore clean energy through solar technology. Our goal is to make
+        the transition to renewable energy simple, practical, and accessible.
+      </p>
+    </section>
+
+    <section class="services section" id="services">
+      <span class="eyebrow">OUR SERVICES</span>
+      <h2>Solar Solutions for Every Need</h2>
+
+      <div class="service-grid">
+        <article class="service-card">
+          <div class="service-icon">🏠</div>
+          <h3>Residential Solar</h3>
+          <p>Solar power solutions designed for homes and everyday energy needs.</p>
+        </article>
+
+        <article class="service-card">
+          <div class="service-icon">🏢</div>
+          <h3>Commercial Solar</h3>
+          <p>Explore solar energy options for offices, shops, and commercial buildings.</p>
+        </article>
+
+        <article class="service-card">
+          <div class="service-icon">🔧</div>
+          <h3>Installation & Support</h3>
+          <p>Get assistance with solar system planning, installation, and maintenance.</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="benefits section" id="benefits">
+      <div class="benefit-content">
+        <span class="eyebrow">WHY CHOOSE SOLAR?</span>
+        <h2>Energy Today. Sustainability Tomorrow.</h2>
+        <p>
+          Solar energy helps reduce reliance on conventional electricity
+          sources and supports a cleaner environment.
+        </p>
+        <ul>
+          <li>✓ Potential savings on electricity bills</li>
+          <li>✓ Clean and renewable energy</li>
+          <li>✓ Solutions for homes and businesses</li>
+          <li>✓ Reduced dependence on grid electricity when appropriately designed</li>
+        </ul>
+      </div>
+      <div class="sun-card">
+        <div class="big-sun">☀</div>
+        <h3>Choose Renewable Energy</h3>
+        <p>Make a positive change with solar power.</p>
+      </div>
+    </section>
+
+    <section class="cta">
+      <h2>Ready to Make the Switch to Solar?</h2>
+      <p>Talk to us about your solar energy requirements.</p>
+      <a href="#contact" class="button primary">Request a Quote</a>
+    </section>
+
+    <section class="contact section" id="contact">
+      <span class="eyebrow">GET IN TOUCH</span>
+      <h2>Let's Talk Solar</h2>
+      <p class="section-description">
+        Tell us about your requirements and we will help you take the next step.
+      </p>
+
+      <form id="contactForm">
+        <div class="form-grid">
+          <input type="text" id="name" placeholder="Your name"
+                 aria-label="Your name" required>
+          <input type="email" id="email" placeholder="Your email"
+                 aria-label="Your email" required>
+          <input type="tel" id="phone" placeholder="Your phone number"
+                 aria-label="Your phone number" required>
+          <select id="system" aria-label="Solar requirement" required>
+            <option value="">Select your requirement</option>
+            <option>Residential Solar</option>
+            <option>Commercial Solar</option>
+            <option>Installation & Maintenance</option>
+            <option>Other Enquiry</option>
+          </select>
+        </div>
+        <textarea id="message" placeholder="Tell us about your requirements"
+                  aria-label="Your message" rows="5" required></textarea>
+        <button type="submit" class="button primary">Send Enquiry</button>
+        <p class="form-note" id="formNote">
+          Your email application will open with your enquiry details.
+        </p>
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <a href="#home" class="logo footer-logo">
+      <span class="sun">☀</span> Tejas Solar Solutions
+    </a>
+    <p>Powering a cleaner, brighter future.</p>
+    <p class="copyright">
+      &copy; <span id="year"></span> Tejas Solar Solutions. All rights reserved.
+    </p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
