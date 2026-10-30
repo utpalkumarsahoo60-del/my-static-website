@@ -126,10 +126,10 @@ and move towards a sustainable future through solar power.</p>
 <section class="contact" id="contact">
 <h2>Start Your Solar Journey Today!</h2>
 <p>Contact Tejas Solar Solutions for a consultation.</p>
-<p>📞 Phone: +91 XXXXXXXXXX</p>
-<p>✉ Email: info@tejassolar.com</p>
-<p>📍 Location: Your City, India</p><br>
-<a class="btn" href="https://wa.me/91XXXXXXXXXX">
+<p>📞 Phone: +91 9337318540</p>
+<p>✉ Email: utpalumarsahoo60@gmail.com</p>
+<p>📍 Location: Bhubaneswar, India</p><br>
+<a class="btn" href="https://wa.me/919337318540">
 Enquire on WhatsApp</a>
 </section>
 
